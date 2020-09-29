@@ -1,0 +1,57 @@
+/* CSS files add styling rules to your content */
+.headline {
+   margin-left: auto;
+   margin-right: auto;
+   width: 426px;
+}
+
+.headline h1 {
+   font-size: 60px;
+   margin-left: 16px;
+}
+
+.headline .profile-photo {
+   width: 70px;
+   margin-top: -30px;
+}
+
+@media (max-width: 480px) {
+   .headline {
+      margin-left: auto;
+      margin-right: auto;
+      width: 287px;
+   }
+
+   .headline h1 {
+      font-size: 40px;
+      margin-left: 8px;
+   }
+
+   .headline .profile-photo {
+      width: 50px;
+      margin-top: -20px;
+   }
+}
+
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6 {
+   cursor: pointer;
+   user-select: none;
+}
+
+textarea {
+   width: 100%;
+}
+
+button:disabled {
+   cursor: not-allowed;
+}
+
+.custom-checkbox label,
+.custom-radio label {
+   cursor: pointer;
+}
